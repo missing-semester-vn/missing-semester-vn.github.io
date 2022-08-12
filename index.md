@@ -1,35 +1,20 @@
 ---
 layout: page
-title: Kì Học Bị Thiếu Của Giáo Trình Khoa Học Máy Tính
+title: The Missing Semester - kỳ học bổ sung các kiến thức hữu ích của ngành khoa học máy tính
 ---
 
-Giảng đường truyền thống dạy mọi người về các vấn đề chuyên ngành Khoa Học 
-Máy Tính cao cấp từ hệ điều hành đến học máy. Tuy nhiên có một chủ đề tối quan 
-trọng nhưng lại hay bị bỏ rơi để sinh viên tự mày mò, đó là khả năng sử dụng 
-công cụ của họ. Chúng tôi sẽ dạy bạn cách làm chủ command-line, sử dụng một trình
-biên dịch mã nguồn (text editor) hết khả năng của nó, vô vàn các chức năng "xịn xò" của trình
-quản lý phiên bản (version control systems), và hơn thế nữa.
+Các lớp học, giảng đường hiện nay  giúp bạn bổ sung kiến thức nâng cao trong ngành khoa học máy tính (CS), từ hệ điều hành đến Machine Learning. 
+Tuy nhiên, vẫn tồn tại nhiều chủ đề đóng vai trò rất quan trọng trong ngành này nhưng các giáo trình hiếm khi đề cập đến, thay vào đó, sinh viên vẫn phải tự mày mò một cách không bài bản, đó là
+kỹ năng sử dụng tốt các công cụ chuyên ngành. Trong khoá học này, chúng tôi sẽ hướng dẫn các bạn cách sử dụng thành thạo các công cụ như command-line, sử dụng một text editor có chức năng cực kỳ tốt,
+dùng các tính năng hay ho của hệ thống quản lý phiên bản mã nguồn (version control systems), và còn nhiều nội dung hữu ích khác!
 
-Ước chừng sinh viên sẽ dành ra hàng trăm giờ để sử dụng những công cụ nói trên trong suốt 
-thời gian ngồi trên giảng đường (và hàng ngàn giờ khi đi làm). Vì vậy, việc đảm bảo cho họ 
-sử dụng các công cụ này "nhanh, gọn, lẹ" là một điều vô cùng hợp lý. Làm chủ hoàn toàn được những
-công cụ này không những cho phép bạn tiết kiệm thời gian thao tác theo ý mình, mà còn cho phép bạn
-xử lý những vấn đề phức tạp, không tưởng.
+Sinh viên bỏ ra hàng trăm giờ làm việc sử dụng các công cụ chuyên ngành kể trên trong suốt quá trình học tập tại trường lớp (và hàng ngàn giờ trong quá trình làm việc thực tế). Vì vậy việc giúp họ sự
+dụng các công cụ này một cách trơn tru mượt mà nhất có thể là một điều cần thiết. Làm chủ các công cụ này không những giúp bạn giảm thiểu thời gian mày mò cách sử dụng chúng cho đúng với nhu cầu mà còn
+giúp bạn giải quyết các vấn đề trước đó tưởng chừng như hóc búa một cách không tưởng.
 
-Đọc thêm về [cảm hứng](/about/) của chúng tôi cho khóa học này.
+Đọc thêm về [cảm hứng tạo ra khoá học này] (/about/).
 
-{% comment %}
-# Registration
-
-Sign up for the IAP 2020 class by filling out this [registration form](https://forms.gle/TD1KnwCSV52qexVt9).
-{% endcomment %}
-
-# Schedule
-
-{% comment %}
-**Lecture**: 35-225, 2pm--3pm<br>
-**Office hours**: 32-G9 lounge, 3pm--4pm (every day, right after lecture)
-{% endcomment %}
+# Thời gian biểu của khoá học
 
 <ul>
 {% assign lectures = site['2020'] | sort: 'date' %}
@@ -47,18 +32,19 @@ Sign up for the IAP 2020 class by filling out this [registration form](https://f
 {% endfor %}
 </ul>
 
-Video cho các bài giảng đã được upload lên [Youtube](https://www.youtube.com/playlist?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J).
+Các video bài giảng của khoá học có thể tìm thấy [tại
+YouTube](https://www.youtube.com/playlist?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J).
 
-# Thông tin khóa học
+# Thông tin về khoá học
 
-**Người Đứng Lớp**: Khóa học này được truyền đạt bởi [Anish](https://www.anishathalye.com/), [Jon](https://thesquareplanet.com/), and [Jose](http://josejg.com/).
-**Thắc mắc**: Email chúng tôi tại [missing-semester@mit.edu](mailto:missing-semester@mit.edu).
+**Giảng viên**: Khoá học này được kết hợp giảng dạy bởi [Anish](https://www.anishathalye.com/), [Jon](https://thesquareplanet.com/), and [Jose](http://josejg.com/).<br>
+**Thắc mắc**: Nếu có bất kỳ câu hỏi hay thắc mắc nào về nội dung khoá học, bạn có thể email cho chúng tôi tại địa chỉ [missing-semester@mit.edu](mailto:missing-semester@mit.edu).
 
-# Ngoài MIT
+# Bên ngoài MIT
 
-Chúng tôi cũng đã chia sẻ lớp học này cho tất cả mọi người (không nhất thiết là sinh viên MIT) 
-với mong ước mọi người sẽ học được gì đó có lợi cho mình. Mọi người cũng có thể đọc thêm các
-diễn đàn, trang tin dưới đây.
+Chúng tôi cũng chia sẻ khoá học này đến với các bạn sinh viên bên 
+ngoài MIT với mong muốn khoá học này sẽ giúp ích được cho nhiều người.
+Bạn có thể tìm thấy các diễn đàn, bài đăng và thảo luận ở:
 
  - [Hacker News](https://news.ycombinator.com/item?id=22226380)
  - [Lobsters](https://lobste.rs/s/ti1k98/missing_semester_your_cs_education_mit)
@@ -67,34 +53,36 @@ diễn đàn, trang tin dưới đây.
  - [Twitter](https://twitter.com/jonhoo/status/1224383452591509507)
  - [YouTube](https://www.youtube.com/playlist?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J)
 
-# Bản Dịch
+# Các bản dịch
 
-- [Chinese (Simplified)](https://missing-semester-cn.github.io/)
-- [Chinese (Traditional)](https://missing-semester-zh-hant.github.io/)
-- [Japanese](https://missing-semester-jp.github.io/)
-- [Korean](https://missing-semester-kr.github.io/)
-- [Portuguese](https://missing-semester-pt.github.io/)
-- [Russian](https://missing-semester-rus.github.io/)
-- [Serbian](https://netboxify.com/missing-semester/)
-- [Spanish](https://missing-semester-esp.github.io/)
-- [Turkish](https://missing-semester-tr.github.io/)
-- [Vietnamese](https://missing-semester-vn.github.io/)
+- [Tiếng Trung (Giản thể)](https://missing-semester-cn.github.io/)
+- [Tiếng Trung (Phồn thể)](https://missing-semester-zh-hant.github.io/)
+- [Tiếng Nhật](https://missing-semester-jp.github.io/)
+- [Tiếng Hàn](https://missing-semester-kr.github.io/)
+- [Tiếng Bồ Đào Nha](https://missing-semester-pt.github.io/)
+- [Tiếng Nga](https://missing-semester-rus.github.io/)
+- [Tiếng Serbia](https://netboxify.com/missing-semester/)
+- [Tiếng Tây Ban Nha](https://missing-semester-esp.github.io/)
+- [Tiếng Thổ Nhĩ Kì](https://missing-semester-tr.github.io/)
+- [Tiếng Việt](https://missing-semester-vn.github.io/)
 
-Lưu Ý: Những bản dịch này được đóng góp bởi cộng đồng mã nguồn mở.
+Lưu ý: đây đều là các đường dẫn tới các bản dịch cộng đồng bên ngoài. Chúng tôi
+chưa hiệu đính các bản dịch này.
 
-Nếu bạn muốn tham gia dịch thuật, hãy submit một [pull request](https://github.com/missing-semester-vn/missing-semester-vn.github.io/pulls) cho mình nhé.
+Nếu bạn muốn đóng góp một bản dịch của một bài giảng trong khoá học, hãy gửi một 
+[pull request](https://github.com/missing-semester/missing-semester/pulls) cho chúng tôi nhé.
 
-## Cảm Ơn
+## Lời cảm ơn
 
-Chúng tôi cảm ơn Elaine Mello, Jim Cain, và [MIT Open
-Learning](https://openlearning.mit.edu/) đã giúp chúng tôi thu viedo về lớp học này; Anthony Zolnik và [MIT
-AeroAstro](https://aeroastro.mit.edu/) cho các phương tiện thu phát; và Brandi Adams và
-[MIT EECS](https://www.eecs.mit.edu/) vì đã hỗ trợ khóa học này.
-
+Chúng tôi gửi lời cảm ơn chân thành đến Elaine Mello, Jim Cain, và [MIT Open
+Learning](https://openlearning.mit.edu/) - những người đã giúp đỡ rất nhiều để 
+chúng tôi có cơ hội quay các video bài giảng; Anthony Zolnik và [MIT
+AeroAstro](https://aeroastro.mit.edu/) vì đã hỗ trợ các thiết bị A/V; cuối cùng là Brandi Adams và
+[MIT EECS](https://www.eecs.mit.edu/) vì đã hỗ trợ khoá học này.
 ---
 
 <div class="small center">
-<p><a href="https://github.com/missing-semester/missing-semester">Mã Nguồn</a>.</p>
+<p><a href="https://github.com/missing-semester/missing-semester">Source code</a>.</p>
 <p>Licensed under CC BY-NC-SA.</p>
-<p>Xem hướng dẫn <a href="/license/">này</a> cho việc đóng góp &amp; dịch thuật.</p>
+<p>Xem hướng dẫn tại <a href="/license/">đây</a> để đóng góp &amp; dịch thuật.</p>
 </div>
